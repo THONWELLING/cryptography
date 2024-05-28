@@ -1,0 +1,12 @@
+services:
+  mysql:
+    image: mysql
+    ports:
+      - "3360:3306"
+    expose:
+      - "3306"
+    environment:
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=31n8731n
+      - MYSQL_DATABASE=cryptoDB
+      - MYSQL_ROOT_PASSWORD=31n8731n
