@@ -1,2 +1,7 @@
-package br.com.ambarx.criptografia.repository;public interface TransactionRepository {
+package br.com.ambarx.criptografia.repository;
+
+import br.com.ambarx.criptografia.entity.TransactionEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TransactionRepository extends JpaRepository<TransactionEntity, Long> {
 }
